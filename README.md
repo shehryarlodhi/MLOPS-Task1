@@ -22,16 +22,16 @@ Vercel for hosting and deployment
 
 .**Project Structure:**
 
-├── app.py                # Main Flask application
-├── model_training.py      # Script to train the model
-├── house_model.pkl        # Trained model file
+├── app.py                
+├── model_training.py      
+├── house_model.pkl        
 ├── templates
-│   └── form.html          # HTML form for user input
-├── requirements.txt       # Project dependencies
+│   └── form.html         
+├── requirements.txt       
 ├── .github
 │   └── workflows
-│       └── deploy.yml     # GitHub Actions configuration for deployment
-└── vercel.json            # Vercel deployment configuration
+│       └── deploy.yml     
+└── vercel.json           
 
 
 **Prerequisites**
